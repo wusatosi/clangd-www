@@ -67,6 +67,19 @@ you fill them in.
 
 ![screenshot: signature help](screenshots/signature_help.gif)
 
+### Populate switch statement
+{:.v12}
+
+Populates the switch statement of an enum type with all its enumerations.
+
+### Generate member wise constructor
+{:.v15}
+Creates an member wise constructor for a C++ class.
+
+### Generate default copy & move constructors
+
+Generates declaration for missing move/ copy constructor/ assignments. 
+
 ## Cross-references
 
 These features let you navigate your codebase.
@@ -160,3 +173,50 @@ Known limitations
 > editors, e.g. VSCode, provide a way to preview the rename changes before
 > applying them; while some just apply the changes directly.
 {:.tip}
+
+### Inline using namespace
+{:.v10}
+
+Removes using namespace declaration and expand the namespace to the declaration.
+
+### Extract namespace
+{:.v11}
+
+Extract namespace declaration as `using`.
+
+### Expand auto declaration
+{:.v9}
+
+Expands the real type of an auto declaration.
+
+### Expand Marco
+{:.v9}
+
+FIXME: I don't think I need to explain more here.
+
+### Extract variable
+{:.v9}
+
+Extract expression to a dummy variable.
+
+### Extract function
+{:.v9}
+
+Extract expression as a function.
+
+### Convert to raw string literal
+{:.9}
+
+Convert a ordinary string literal to a raw string literal.
+
+### Define Inline
+
+Moves definition of a function/method to its declaration location.
+
+### Define Outline
+
+Moves definition of a function/method to an appropriate implementation file.
+
+### Warp in `NSLocalizedString`
+
+Wrap Objective-C string literals in NSLocalizedString macros.
