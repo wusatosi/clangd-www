@@ -77,6 +77,7 @@ Populates the switch statement of an enum type with all its enumerations.
 Creates an member wise constructor for a C++ class.
 
 ### Generate default copy & move constructors
+{:.v15}
 
 Generates declaration for missing move/ copy constructor/ assignments. 
 
@@ -192,12 +193,12 @@ Expands the real type of an auto declaration.
 ### Expand Marco
 {:.v9}
 
-FIXME: I don't think I need to explain more here.
+Expand the macro in-place.
 
 ### Extract variable
 {:.v9}
 
-Extract expression to a dummy variable.
+Extract expression result to a dummy variable.
 
 ### Extract function
 {:.v9}
@@ -205,18 +206,21 @@ Extract expression to a dummy variable.
 Extract expression as a function.
 
 ### Convert to raw string literal
-{:.9}
+{:.v9}
 
 Convert a ordinary string literal to a raw string literal.
 
 ### Define Inline
+{:.v10}
 
 Moves definition of a function/method to its declaration location.
 
 ### Define Outline
+{:.v10}
 
 Moves definition of a function/method to an appropriate implementation file.
 
 ### Warp in `NSLocalizedString`
+{:.v10}
 
 Wrap Objective-C string literals in NSLocalizedString macros.
