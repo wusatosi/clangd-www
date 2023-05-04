@@ -72,14 +72,20 @@ you fill them in.
 
 Populates the switch statement of an enum type with all its enumerations.
 
+![screenshot: populate switch statement](screenshots/completion_populate_enum.gif)
+
 ### Generate member wise constructor
 {:.v15}
 Creates an member wise constructor for a C++ class.
+
+![screenshot: generate member wise constructor](screenshots/completion_generate_constructor.gif)
 
 ### Generate default copy & move constructors
 {:.v15}
 
 Generates declaration for missing move/ copy constructor/ assignments. 
+
+![screenshot: generate special functions](screenshots/completion_generate_default_functions.gif)
 
 ## Cross-references
 
@@ -180,10 +186,14 @@ Known limitations
 
 Removes using namespace declaration and expand the namespace to the declaration.
 
+![screenshot: inline using namespace](screenshots/refactor_inline_using_namespace.gif)
+
 ### Extract namespace
 {:.v11}
 
 Extract namespace declaration as `using`.
+
+![screenshot: extract namespace](screenshots/refactor_extract_as_using.gif)
 
 ### Expand auto declaration
 {:.v9}
@@ -209,6 +219,8 @@ Extract expression as a function.
 {:.v9}
 
 Convert a ordinary string literal to a raw string literal.
+
+![screenshot: convert to raw string](screenshots/refactor_raw_string.gif)
 
 ### Define Inline
 {:.v10}
